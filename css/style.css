@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+body {
+  min-height: 100vh;
+  background-color: #1e1d2b;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1e1d2b;
+  color: white;
+  position: relative;
+}
+
+/* responsive */
+nav.active {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+nav h2.logo {
+  
+  font-size: xx-large;
+  color: #ff702a;
+  margin-left: 80px;
+}
+
+nav .bars {
+  position: absolute;
+  right: 1rem;
+  font-size: xx-large;
+  display: none;
+}
+
+ul.nav-links {
+  display: flex;
+}
+
+/* responsive */
+nav.active ul.nav-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+li.nav-link {
+  list-style: none;
+  border-radius: 4px;
+  margin: 0.5rem 1rem;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+
+li.nav-link:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+
+li.nav-link a {
+  text-decoration: none;
+  color: inherit;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+  nav .bars {
+    display: block;
+  }
+
+  nav .nav-links {
+    display: none;
+  }
+}
+
+.container{
+    position: relative;
+    width: 1700px;
+    height: auto;
+    left: 100px;
+    top: 0px;
+
+}
+
+.info{
+    position: absolute;
+    left: 150px;
+    top: 200px ;
+    overflow: hidden;
+}
+
+.info h1{
+  font-size: 6rem;
+  color: #ff702a;
+}
+.info p {
+    color: white;
+    font-size: 2rem;
+
+}
+
+.btn{
+    background-color:#ff702a;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 14px;
+    margin: 10px;
+    color: white;
+    font-weight: bolder;
+    display: inline-block;
+}
+.img1{
+    background-image: url(../images/home.png);
+    width: 700px;
+    height: 700px;
+    background-size: cover;
+    position: absolute;
+    right: 140px;
+    top: 0px;
+}
