@@ -22,7 +22,7 @@ nav {
   align-items: center;
   padding: 1rem;
   background-color: #1e1d2b;
-  color: white;
+  color: rgb(255, 255, 255);
   position: relative;
 }
 
@@ -68,8 +68,8 @@ li.nav-link {
 }
 
 li.nav-link:hover {
-  background-color: #ccc;
-  color: #333;
+  background-color: #ff712a70;
+  color: #ffffff;
 }
 
 
@@ -88,12 +88,31 @@ li.nav-link a {
   nav .nav-links {
     display: none;
   }
+
+}
+.btn{
+  background-color:#ff702a;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-weight: bolder;
+  display: inline-block;
 }
 
+.btn:hover{
+  background-color: #9e3500;
+  color: white;
+}
+
+/* Sección de home */
 .container{
     position: relative;
-    width: 1700px;
+    width: 1100px;
     height: auto;
+    padding-bottom:80px;
     left: 100px;
     top: 0px;
 
@@ -101,13 +120,13 @@ li.nav-link a {
 
 .info{
     position: absolute;
-    left: 150px;
-    top: 200px ;
+    left: 100px;
+    top: 100px ;
     overflow: hidden;
 }
 
 .info h1{
-  font-size: 6rem;
+  font-size: 4rem;
   color: #ff702a;
 }
 .info p {
@@ -116,22 +135,144 @@ li.nav-link a {
 
 }
 
-.btn{
-    background-color:#ff702a;
-    text-decoration: none;
-    font-size: 1rem;
-    padding: 14px;
-    margin: 10px;
-    color: white;
-    font-weight: bolder;
-    display: inline-block;
-}
 .img1{
     background-image: url(../images/home.png);
-    width: 700px;
-    height: 700px;
+    width: 400px;
+    height: 400px;
     background-size: cover;
     position: absolute;
-    right: 140px;
+    right: 60px;
     top: 0px;
+}
+
+/* seccion de about us */
+
+.container2{
+  position: relative;
+  width: 1100px;
+  height: auto;
+  left: 100px;
+  top: 500px;
+
+}
+
+.info2{
+  position: absolute;
+  left: 600px;
+  top: 0px ;
+  overflow: hidden;
+}
+
+.sub{
+  color: #ff702a;
+}
+
+.info2 h4{
+  color: #ffffff;
+}
+
+.info2 h1{
+font-size: 2rem;
+color: white;
+}
+.info2 p {
+  color: white;
+  font-size: 2rem;
+
+}
+
+.img2{
+  background-image: url(../images/about.png);
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  position: absolute;
+  left: 60px;
+  top: 0px;
+  margin-bottom: 10px;
+}
+
+/* menu */
+.container3 {
+  position: relative;
+  width: 1100px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  top: 980px;
+      
+}
+
+.container3 h2{
+  color: white; 
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.menu-subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.menu-item {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #f3f3f3;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+ 
+}
+
+.item1 { 
+  left: 70px; 
+  top: 140px; 
+}
+
+.item2 { 
+  left: 430px;
+  top: 140px; 
+}
+
+.item3 { 
+  left: 780px;
+  top: 140px;
+ }
+
+.menu-item img {
+  width: 190px;
+  height: 190px;
+  
+
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-item .price {
+    color: orange;
+    font-size: 16px;
+}
+
+/* services */
+.container4{
+  position: relative;
+  width: 1100px;
+  height: auto;
+  padding-bottom:80px;
+  left: 100px;
+  top: 1500px;
+
 }
