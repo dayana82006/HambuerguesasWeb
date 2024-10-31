@@ -275,7 +275,6 @@ color: white;
 .container4 {
   position: relative;
   width: 1100px;
-  max-width: 1100px;
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
@@ -341,9 +340,10 @@ color: white;
 /* ultimo */
 .container5 {
   position: relative;
-  width: 150vh;
-  height: 30vh;
+  width: 160vh;
+  height: 60vh;
   margin: 0 auto;
+  padding-top: 90px;
   text-align: center;
   margin-top: 70px;
   margin-bottom: 70px;
@@ -354,7 +354,7 @@ color: white;
 .container5 h1{
 font-weight: normal;
 line-height: 100px;
-font-size: 2rem;
+font-size: 3rem;
 
 }
 
