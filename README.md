@@ -20,7 +20,7 @@ El proyecto se construyó utilizando únicamente **HTML** y **CSS**, garantizand
 El propósito principal de este proyecto es simular una página web moderna y profesional para un restaurante de hamburguesas, destacando:  
 - Un diseño atractivo que refleje la identidad visual de la marca.  
 - Información clara y bien organizada sobre los productos y servicios ofrecidos.  
-- Adaptabilidad a diferentes dispositivos mediante un diseño responsive.  
+ 
 
 ---
 
@@ -28,8 +28,6 @@ El propósito principal de este proyecto es simular una página web moderna y pr
 
 - **Página de Inicio**: Presenta una introducción atractiva con imágenes de alta calidad que destacan las hamburguesas del restaurante.  
 - **Menú Visual**: Una sección dedicada a mostrar las hamburguesas disponibles con sus descripciones y precios.  
-- **Diseño Responsive**: El sitio web se adapta perfectamente a dispositivos móviles, tabletas y computadoras de escritorio, asegurando una navegación fluida.  
-- **Formulario de Contacto**: Incluye una sección para que los clientes puedan enviar mensajes o consultas fácilmente.  
 - **Estilo Personalizado**: Colores, fuentes y diseño coherentes con la temática de hamburguesas, generando un impacto visual agradable.  
 
 ---
